@@ -1,0 +1,13 @@
+/*video App Stylesheet*/
+
+.jumbotron{padding:0px;
+			background-color: #000;
+}
+
+.btnPlay{position:absolute;
+	top:35%;
+	left:45%;
+	z-index: 1;
+	font-size: 100px;
+	color: grey;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vidtime</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>  
+
+	<!-- container Starts -->
+	<div class="container"> 
+		<div class="jumbotron" id="bye-padding">
+			<video src="video/Ponyo.mp4" id="videoPlayer" autostart="false" width="100%" height="100%" ></video>
+		</div>
+		
+		<!-- Play Button -->
+		<div class="videoControls">
+			<a href="#" class="btnPlay">
+				<span class="glyphicon glyphicon-play"></span>
+			</a>
+
+		</div> <!-- Play Button End -->
+		
+		<!-- video Time -->
+		<div class="videoTime">
+			<span class="current"></span>
+			<span class="duration"></span>
+		</div> <!-- video Time End-->
+		
+		<!-- mute-button starts -->
+		<div class="mute-button">
+			<a href="#" class="btnMute">
+			<span class="glyphicon glyphicon-volume-up"></span>
+		</a>
+		</div> <!-- mute-button Ends -->
+		
+	</div> 	<!-- Container End -->
+	<script src="node_modules/jquery/tmp/jquery.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/decimal.js"></script>
+
+</body>
+</html>
